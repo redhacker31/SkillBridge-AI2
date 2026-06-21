@@ -12,12 +12,14 @@ import MainLayout from './layouts/MainLayout'
 
 function App() {
   const initialize = useAuthStore((state) => state.initialize);
-  const isLoading = useAuthStore((state) => state.isLoading);
+  // const isLoading = useAuthStore((state) => state.isLoading);
 
   useEffect(() => {
     initialize();
   }, [initialize]);
 
+  // Loading screen bypassed for temporary MVP flow
+  /*
   if (isLoading) {
     return (
       <div className="min-h-screen bg-slate-950 flex items-center justify-center">
@@ -28,6 +30,7 @@ function App() {
       </div>
     );
   }
+  */
 
   return (
     <BrowserRouter>
@@ -51,8 +54,8 @@ function App() {
         </Route>
 
         {/* Fallbacks */}
-        <Route path="/" element={<Navigate to="/dashboard" replace />} />
-        <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/" element={<Navigate to="/upload" replace />} />
+        <Route path="*" element={<Navigate to="/upload" replace />} />
       </Routes>
     </BrowserRouter>
   )

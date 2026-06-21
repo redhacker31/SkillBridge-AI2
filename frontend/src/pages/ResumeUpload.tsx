@@ -74,33 +74,49 @@ export default function ResumeUpload() {
     setErrorMessage('');
 
     try {
-      const uploadResponse = await resumeService.uploadResume(file, (progressEvent) => {
-        if (progressEvent.total) {
-          const progress = Math.round((progressEvent.loaded * 100) / progressEvent.total);
-          setUploadProgress(progress);
-        }
-      });
+      let uploadResponse;
+      try {
+        uploadResponse = await resumeService.uploadResume(file, (progressEvent) => {
+          if (progressEvent.total) {
+            const progress = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+            setUploadProgress(progress);
+          }
+        });
+      } catch (uploadError) {
+        throw new Error('UPLOAD_FAILED');
+      }
 
       setStatus('analyzing');
       
-      const analysisInit = await resumeService.analyzeResume(uploadResponse.id, careerGoal);
+      let analysisInit;
+      try {
+        analysisInit = await resumeService.analyzeResume(uploadResponse.id, careerGoal);
+      } catch (analyzeError) {
+        throw new Error('ANALYSIS_FAILED');
+      }
+
       let isComplete = false;
       let attempt = 0;
       
       while (!isComplete && attempt < 30) {
         await new Promise((resolve) => setTimeout(resolve, 3000));
-        const statusResponse = await resumeService.getAnalysisStatus(analysisInit.analysis_id);
+        let statusResponse;
+        try {
+          statusResponse = await resumeService.getAnalysisStatus(analysisInit.analysis_id);
+        } catch (statusError) {
+          throw new Error('ANALYSIS_FAILED');
+        }
         
         if (statusResponse.status === 'completed') {
           isComplete = true;
         } else if (statusResponse.status === 'failed') {
-          throw new Error('Analysis failed on the server.');
+          throw new Error('ANALYSIS_FAILED');
         }
         attempt++;
       }
       
       if (!isComplete) {
-         throw new Error('Analysis took too long. Please check your dashboard later.');
+         throw new Error('ANALYSIS_FAILED');
       }
 
       setStatus('success');
@@ -112,7 +128,13 @@ export default function ResumeUpload() {
     } catch (error: any) {
       console.error('Process failed:', error);
       setStatus('error');
-      setErrorMessage(error.message || error.response?.data?.detail || 'Failed to process resume. Please try again.');
+      if (error.message === 'UPLOAD_FAILED') {
+        setErrorMessage('Upload failed. Please try again.');
+      } else if (error.message === 'ANALYSIS_FAILED') {
+        setErrorMessage('Analysis failed. Please try again.');
+      } else {
+        setErrorMessage(error.message || error.response?.data?.detail || 'Failed to process resume. Please try again.');
+      }
     }
   };
 

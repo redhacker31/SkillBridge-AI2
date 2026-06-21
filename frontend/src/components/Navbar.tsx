@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
 
 export default function Navbar() {
-  const { user, logout, isAuthenticated } = useAuthStore();
+  const { isAuthenticated } = useAuthStore();
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
@@ -46,6 +46,30 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center space-x-4">
+          <Link 
+            to="/upload" 
+            className={`text-sm font-medium px-3 py-2 rounded-lg transition-colors ${
+              isActive('/upload') ? 'bg-indigo-500/10 text-indigo-450' : 'text-slate-300 hover:text-white'
+            }`}
+          >
+            Upload Resume
+          </Link>
+          <Link 
+            to="/dashboard" 
+            className={`text-sm font-medium px-3 py-2 rounded-lg transition-colors ${
+              isActive('/dashboard') ? 'bg-indigo-500/10 text-indigo-450' : 'text-slate-300 hover:text-white'
+            }`}
+          >
+            Dashboard
+          </Link>
+          <Link 
+            to="/upload" 
+            className="px-4 py-2 bg-indigo-650 hover:bg-indigo-700 text-sm font-medium rounded-lg transition-colors cursor-pointer text-white shadow-lg shadow-indigo-500/10"
+          >
+            Analyze Resume
+          </Link>
+
+          {/* Original Auth Controls - Hidden for MVP
           {isAuthenticated ? (
             <>
               <span className="text-sm font-medium text-slate-350 hidden sm:inline">
@@ -68,6 +92,7 @@ export default function Navbar() {
               </Link>
             </>
           )}
+          */}
         </div>
       </div>
     </nav>

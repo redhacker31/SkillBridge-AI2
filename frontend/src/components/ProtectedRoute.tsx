@@ -1,11 +1,15 @@
-import { Navigate } from 'react-router-dom';
-import { useAuthStore } from '../store/authStore';
+// import { Navigate } from 'react-router-dom';
+// import { useAuthStore } from '../store/authStore';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
 }
 
 export default function ProtectedRoute({ children }: ProtectedRouteProps) {
+  // Bypassed for MVP: immediately render children
+  return <>{children}</>;
+
+  /* Original implementation
   const { isAuthenticated, isLoading } = useAuthStore();
 
   if (isLoading) {
@@ -24,4 +28,5 @@ export default function ProtectedRoute({ children }: ProtectedRouteProps) {
   }
 
   return <>{children}</>;
+  */
 }

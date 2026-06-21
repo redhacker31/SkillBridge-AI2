@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import type { User, LoginCredentials, RegisterCredentials } from '../types/auth';
-import authService from '../services/authService';
+// import authService from '../services/authService';
 
 interface AuthState {
   user: User | null;
@@ -15,16 +15,20 @@ interface AuthState {
   clearError: () => void;
 }
 
-export const useAuthStore = create<AuthState>((set, get) => ({
-  user: null,
+export const useAuthStore = create<AuthState>((set) => ({
+  user: { id: 1, full_name: 'MVP User', email: 'mvp_user@example.com', created_at: '2026-06-22T02:22:52+05:30' } as any,
   token: null,
-  isAuthenticated: false,
+  isAuthenticated: true,
   isLoading: false,
   authError: null,
 
   clearError: () => set({ authError: null }),
 
-  login: async (credentials) => {
+  login: async (_credentials) => {
+    // Bypassed for MVP
+    set({ user: { id: 1, full_name: 'MVP User', email: 'mvp_user@example.com', created_at: '2026-06-22T02:22:52+05:30' } as any, isAuthenticated: true, isLoading: false });
+    return true;
+    /* Original implementation
     set({ isLoading: true, authError: null });
     try {
       const response = await authService.login(credentials);
@@ -39,9 +43,14 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       set({ authError: message, isLoading: false });
       return false;
     }
+    */
   },
 
-  register: async (credentials) => {
+  register: async (_credentials) => {
+    // Bypassed for MVP
+    set({ user: { id: 1, full_name: 'MVP User', email: 'mvp_user@example.com', created_at: '2026-06-22T02:22:52+05:30' } as any, isAuthenticated: true, isLoading: false });
+    return true;
+    /* Original implementation
     set({ isLoading: true, authError: null });
     try {
       await authService.register(credentials);
@@ -56,14 +65,25 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       set({ authError: message, isLoading: false });
       return false;
     }
+    */
   },
 
   logout: () => {
+    // Bypassed for MVP
+    /* Original implementation
     localStorage.removeItem('token');
     set({ user: null, token: null, isAuthenticated: false, authError: null });
+    */
   },
 
   initialize: async () => {
+    // Bypassed for MVP: immediately resolve as authenticated and do not make requests or check localStorage
+    set({
+      user: { id: 1, full_name: 'MVP User', email: 'mvp_user@example.com', created_at: '2026-06-22T02:22:52+05:30' } as any,
+      isAuthenticated: true,
+      isLoading: false
+    });
+    /* Original implementation
     const token = localStorage.getItem('token');
     if (!token) {
       set({ isLoading: false, isAuthenticated: false });
@@ -79,5 +99,6 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       localStorage.removeItem('token');
       set({ user: null, token: null, isAuthenticated: false, isLoading: false });
     }
+    */
   },
 }));

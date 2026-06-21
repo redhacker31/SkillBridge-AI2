@@ -10,7 +10,8 @@ export const api = axios.create({
   },
 });
 
-// Axios Request Interceptor
+// Axios Request Interceptor (Bypassed for temporary MVP flow)
+/*
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('token');
@@ -23,6 +24,7 @@ api.interceptors.request.use(
     return Promise.reject(error);
   }
 );
+*/
 
 export const authService = {
   async register(credentials: RegisterCredentials): Promise<User> {

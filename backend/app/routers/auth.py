@@ -14,8 +14,12 @@ router = APIRouter()
 # OAuth2PasswordBearer indicates where to retrieve the token
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 
-def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:
-    """Dependency to retrieve the currently logged in user from a JWT token."""
+def get_current_user(db: Session = Depends(get_db)) -> User:
+    """Dependency to retrieve the currently logged in user from a JWT token.
+    (Bypassed for temporary MVP flow)
+    """
+    # Original authentication code kept intact below for future restoration
+    """
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
         detail="Could not validate credentials",
@@ -33,6 +37,19 @@ def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(
     user = db.query(User).filter(User.email == token_data.email).first()
     if user is None:
         raise credentials_exception
+    return user
+    """
+    default_email = "mvp_user@example.com"
+    user = db.query(User).filter(User.email == default_email).first()
+    if user is None:
+        user = User(
+            full_name="MVP User",
+            email=default_email,
+            password_hash="MVP_BYPASS_HASH"
+        )
+        db.add(user)
+        db.commit()
+        db.refresh(user)
     return user
 
 @router.post("/register", response_model=UserResponse, status_code=status.HTTP_201_CREATED)
