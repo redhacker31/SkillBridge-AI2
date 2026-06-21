@@ -32,6 +32,11 @@ class Settings(BaseSettings):
         return [origin.strip() for origin in self.cors_origins.split(",")]
 
     @property
+    def cors_origins_list(self) -> list[str]:
+        """Alias for cors_origin_list to support consistent plural/singular naming."""
+        return self.cors_origin_list
+
+    @property
     def max_file_size_bytes(self) -> int:
         """Convert MB limit to bytes."""
         return self.max_file_size_mb * 1024 * 1024

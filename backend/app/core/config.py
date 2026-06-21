@@ -68,6 +68,11 @@ class Settings(BaseSettings):
         return [origin.strip() for origin in self.cors_origins.split(",")]
 
     @property
+    def cors_origin_list(self) -> list[str]:
+        """Alias for cors_origins_list to support consistent plural/singular naming."""
+        return self.cors_origins_list
+
+    @property
     def is_production(self) -> bool:
         """Check if the application is running in production."""
         return self.app_env == "production"
