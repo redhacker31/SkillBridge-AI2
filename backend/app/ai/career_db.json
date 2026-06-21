@@ -1,0 +1,91 @@
+{
+    "AI Engineer": {
+        "required_skills": [
+            "Python",
+            "NumPy",
+            "Pandas",
+            "Machine Learning",
+            "Deep Learning",
+            "TensorFlow",
+            "PyTorch",
+            "Git",
+            "SQL",
+            "Docker"
+        ]
+    },
+    "Data Scientist": {
+        "required_skills": [
+            "Python",
+            "R",
+            "SQL",
+            "Machine Learning",
+            "Statistics",
+            "Pandas",
+            "Data Visualization",
+            "Scikit-Learn",
+            "Tableau"
+        ]
+    },
+    "Data Analyst": {
+        "required_skills": [
+            "SQL",
+            "Excel",
+            "Python",
+            "Tableau",
+            "Power BI",
+            "Data Visualization",
+            "Communication"
+        ]
+    },
+    "Python Developer": {
+        "required_skills": [
+            "Python",
+            "Django",
+            "FastAPI",
+            "Flask",
+            "SQL",
+            "Git",
+            "REST APIs",
+            "Docker"
+        ]
+    },
+    "Backend Developer": {
+        "required_skills": [
+            "Python",
+            "Java",
+            "Node.js",
+            "SQL",
+            "NoSQL",
+            "Docker",
+            "Kubernetes",
+            "Git",
+            "REST APIs",
+            "System Design"
+        ]
+    },
+    "Frontend Developer": {
+        "required_skills": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "Redux",
+            "Git"
+        ]
+    },
+    "Full Stack Developer": {
+        "required_skills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Python",
+            "SQL",
+            "REST APIs",
+            "Git",
+            "Docker",
+            "CSS"
+        ]
+    }
+}

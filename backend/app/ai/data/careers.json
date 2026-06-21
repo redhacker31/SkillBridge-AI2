@@ -1,0 +1,4177 @@
+{
+  "frontend_developer_react": {
+    "id": "CAR_FRONTEND_DEVELOPER_REACT",
+    "name": "Frontend Developer (React)",
+    "required_skills": {
+      "html": "Critical",
+      "css": "Critical",
+      "javascript": "Critical",
+      "react": "Critical",
+      "typescript": "High",
+      "redux": "High",
+      "next.js": "Medium"
+    },
+    "optional_skills": [
+      "typescript",
+      "redux",
+      "next.js"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Html for Frontend Developer",
+        "reason": "Essential foundation in html",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "html"
+        ]
+      },
+      {
+        "title": "Advanced React Architecture",
+        "reason": "Deep dive into react patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "html"
+        ],
+        "addressed_skills": [
+          "react"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Frontend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "html",
+          "css"
+        ],
+        "addressed_skills": [
+          "html",
+          "css"
+        ]
+      },
+      {
+        "title": "Enterprise-level Javascript Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "html",
+          "css",
+          "javascript",
+          "react"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "react"
+        ]
+      },
+      {
+        "title": "Integrating Typescript into Html",
+        "reason": "Shows ability to use typescript effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "html"
+        ],
+        "addressed_skills": [
+          "typescript"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Frontend Developer (React) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "html",
+          "css"
+        ],
+        "addressed_skills": [
+          "html",
+          "css",
+          "javascript",
+          "react"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn html",
+      "Learn css",
+      "Learn javascript",
+      "Learn react",
+      "Explore typescript",
+      "Explore redux",
+      "Explore next.js"
+    ],
+    "certifications": [
+      "Certified Frontend Developer (React) Professional"
+    ]
+  },
+  "backend_developer_python": {
+    "id": "CAR_BACKEND_DEVELOPER_PYTHON",
+    "name": "Backend Developer (Python)",
+    "required_skills": {
+      "python": "Critical",
+      "sql": "Critical",
+      "django": "Critical",
+      "flask": "Critical",
+      "fastapi": "High",
+      "docker": "High",
+      "redis": "Medium",
+      "postgresql": "Medium"
+    },
+    "optional_skills": [
+      "fastapi",
+      "docker",
+      "redis",
+      "postgresql"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Python for Backend Developer",
+        "reason": "Essential foundation in python",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "python"
+        ]
+      },
+      {
+        "title": "Advanced Flask Architecture",
+        "reason": "Deep dive into flask patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "flask"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Backend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "python",
+          "sql"
+        ],
+        "addressed_skills": [
+          "python",
+          "sql"
+        ]
+      },
+      {
+        "title": "Enterprise-level Django Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "python",
+          "sql",
+          "django",
+          "flask"
+        ],
+        "addressed_skills": [
+          "django",
+          "flask"
+        ]
+      },
+      {
+        "title": "Integrating Fastapi into Python",
+        "reason": "Shows ability to use fastapi effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "fastapi"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Backend Developer (Python) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "python",
+          "sql"
+        ],
+        "addressed_skills": [
+          "python",
+          "sql",
+          "django",
+          "flask"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn python",
+      "Learn sql",
+      "Learn django",
+      "Learn flask",
+      "Explore fastapi",
+      "Explore docker",
+      "Explore redis",
+      "Explore postgresql"
+    ],
+    "certifications": [
+      "Certified Backend Developer (Python) Professional"
+    ]
+  },
+  "data_scientist": {
+    "id": "CAR_DATA_SCIENTIST",
+    "name": "Data Scientist",
+    "required_skills": {
+      "python": "Critical",
+      "sql": "Critical",
+      "machine learning": "Critical",
+      "pandas": "Critical",
+      "scikit-learn": "High",
+      "numpy": "High",
+      "tensorflow": "Medium",
+      "pytorch": "Medium"
+    },
+    "optional_skills": [
+      "scikit-learn",
+      "numpy",
+      "tensorflow",
+      "pytorch"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Python for Data Scientist",
+        "reason": "Essential foundation in python",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "python"
+        ]
+      },
+      {
+        "title": "Advanced Pandas Architecture",
+        "reason": "Deep dive into pandas patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "pandas"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Data Scientist Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "python",
+          "sql"
+        ],
+        "addressed_skills": [
+          "python",
+          "sql"
+        ]
+      },
+      {
+        "title": "Enterprise-level Machine Learning Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "python",
+          "sql",
+          "machine learning",
+          "pandas"
+        ],
+        "addressed_skills": [
+          "machine learning",
+          "pandas"
+        ]
+      },
+      {
+        "title": "Integrating Scikit-Learn into Python",
+        "reason": "Shows ability to use scikit-learn effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "scikit-learn"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Data Scientist Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "python",
+          "sql"
+        ],
+        "addressed_skills": [
+          "python",
+          "sql",
+          "machine learning",
+          "pandas"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn python",
+      "Learn sql",
+      "Learn machine learning",
+      "Learn pandas",
+      "Explore scikit-learn",
+      "Explore numpy",
+      "Explore tensorflow",
+      "Explore pytorch"
+    ],
+    "certifications": [
+      "Certified Data Scientist Professional"
+    ]
+  },
+  "devops_engineer": {
+    "id": "CAR_DEVOPS_ENGINEER",
+    "name": "DevOps Engineer",
+    "required_skills": {
+      "linux": "Critical",
+      "docker": "Critical",
+      "kubernetes": "Critical",
+      "git": "Critical",
+      "aws": "High",
+      "terraform": "High",
+      "jenkins": "Medium",
+      "prometheus": "Medium"
+    },
+    "optional_skills": [
+      "aws",
+      "terraform",
+      "jenkins",
+      "prometheus"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Linux for DevOps Engineer",
+        "reason": "Essential foundation in linux",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "linux"
+        ]
+      },
+      {
+        "title": "Advanced Git Architecture",
+        "reason": "Deep dive into git patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "linux"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a DevOps Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "linux",
+          "docker"
+        ],
+        "addressed_skills": [
+          "linux",
+          "docker"
+        ]
+      },
+      {
+        "title": "Enterprise-level Kubernetes Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "linux",
+          "docker",
+          "kubernetes",
+          "git"
+        ],
+        "addressed_skills": [
+          "kubernetes",
+          "git"
+        ]
+      },
+      {
+        "title": "Integrating Aws into Linux",
+        "reason": "Shows ability to use aws effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "linux"
+        ],
+        "addressed_skills": [
+          "aws"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior DevOps Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "linux",
+          "docker"
+        ],
+        "addressed_skills": [
+          "linux",
+          "docker",
+          "kubernetes",
+          "git"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn linux",
+      "Learn docker",
+      "Learn kubernetes",
+      "Learn git",
+      "Explore aws",
+      "Explore terraform",
+      "Explore jenkins",
+      "Explore prometheus"
+    ],
+    "certifications": [
+      "Certified DevOps Engineer Professional"
+    ]
+  },
+  "fullstack_developer": {
+    "id": "CAR_FULLSTACK_DEVELOPER",
+    "name": "Full Stack Developer",
+    "required_skills": {
+      "javascript": "Critical",
+      "react": "Critical",
+      "node.js": "Critical",
+      "sql": "Critical",
+      "typescript": "High",
+      "postgresql": "High",
+      "docker": "Medium",
+      "aws": "Medium"
+    },
+    "optional_skills": [
+      "typescript",
+      "postgresql",
+      "docker",
+      "aws"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Javascript for Full Stack Developer",
+        "reason": "Essential foundation in javascript",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "javascript"
+        ]
+      },
+      {
+        "title": "Advanced Sql Architecture",
+        "reason": "Deep dive into sql patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "javascript"
+        ],
+        "addressed_skills": [
+          "sql"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Full Stack Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "javascript",
+          "react"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "react"
+        ]
+      },
+      {
+        "title": "Enterprise-level Node.Js Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "javascript",
+          "react",
+          "node.js",
+          "sql"
+        ],
+        "addressed_skills": [
+          "node.js",
+          "sql"
+        ]
+      },
+      {
+        "title": "Integrating Typescript into Javascript",
+        "reason": "Shows ability to use typescript effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "javascript"
+        ],
+        "addressed_skills": [
+          "typescript"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Full Stack Developer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "javascript",
+          "react"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "react",
+          "node.js",
+          "sql"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn javascript",
+      "Learn react",
+      "Learn node.js",
+      "Learn sql",
+      "Explore typescript",
+      "Explore postgresql",
+      "Explore docker",
+      "Explore aws"
+    ],
+    "certifications": [
+      "Certified Full Stack Developer Professional"
+    ]
+  },
+  "machine_learning_engineer": {
+    "id": "CAR_MACHINE_LEARNING_ENGINEER",
+    "name": "Machine Learning Engineer",
+    "required_skills": {
+      "python": "Critical",
+      "machine learning": "Critical",
+      "tensorflow": "Critical",
+      "pytorch": "Critical",
+      "sql": "High",
+      "docker": "High",
+      "kubernetes": "Medium",
+      "aws": "Medium"
+    },
+    "optional_skills": [
+      "sql",
+      "docker",
+      "kubernetes",
+      "aws"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Python for Machine Learning Engineer",
+        "reason": "Essential foundation in python",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "python"
+        ]
+      },
+      {
+        "title": "Advanced Pytorch Architecture",
+        "reason": "Deep dive into pytorch patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "pytorch"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Machine Learning Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "python",
+          "machine learning"
+        ],
+        "addressed_skills": [
+          "python",
+          "machine learning"
+        ]
+      },
+      {
+        "title": "Enterprise-level Tensorflow Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "python",
+          "machine learning",
+          "tensorflow",
+          "pytorch"
+        ],
+        "addressed_skills": [
+          "tensorflow",
+          "pytorch"
+        ]
+      },
+      {
+        "title": "Integrating Sql into Python",
+        "reason": "Shows ability to use sql effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "sql"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Machine Learning Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "python",
+          "machine learning"
+        ],
+        "addressed_skills": [
+          "python",
+          "machine learning",
+          "tensorflow",
+          "pytorch"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn python",
+      "Learn machine learning",
+      "Learn tensorflow",
+      "Learn pytorch",
+      "Explore sql",
+      "Explore docker",
+      "Explore kubernetes",
+      "Explore aws"
+    ],
+    "certifications": [
+      "Certified Machine Learning Engineer Professional"
+    ]
+  },
+  "ios_developer": {
+    "id": "CAR_IOS_DEVELOPER",
+    "name": "iOS Developer",
+    "required_skills": {
+      "swift": "Critical",
+      "xcode": "Critical",
+      "git": "Critical",
+      "objective-c": "High",
+      "core data": "High",
+      "uikit": "High"
+    },
+    "optional_skills": [
+      "objective-c",
+      "core data",
+      "uikit"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Swift for iOS Developer",
+        "reason": "Essential foundation in swift",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "swift"
+        ]
+      },
+      {
+        "title": "Advanced Git Architecture",
+        "reason": "Deep dive into git patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "swift"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a iOS Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "swift",
+          "xcode"
+        ],
+        "addressed_skills": [
+          "swift",
+          "xcode"
+        ]
+      },
+      {
+        "title": "Enterprise-level Git Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "swift",
+          "xcode",
+          "git"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      },
+      {
+        "title": "Integrating Objective-C into Swift",
+        "reason": "Shows ability to use objective-c effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "swift"
+        ],
+        "addressed_skills": [
+          "objective-c"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior iOS Developer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "swift",
+          "xcode"
+        ],
+        "addressed_skills": [
+          "swift",
+          "xcode",
+          "git"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn swift",
+      "Learn xcode",
+      "Learn git",
+      "Explore objective-c",
+      "Explore core data",
+      "Explore uikit"
+    ],
+    "certifications": [
+      "Certified iOS Developer Professional"
+    ]
+  },
+  "android_developer": {
+    "id": "CAR_ANDROID_DEVELOPER",
+    "name": "Android Developer",
+    "required_skills": {
+      "java": "Critical",
+      "kotlin": "Critical",
+      "android studio": "Critical",
+      "git": "High",
+      "sqlite": "High",
+      "firebase": "High"
+    },
+    "optional_skills": [
+      "git",
+      "sqlite",
+      "firebase"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Java for Android Developer",
+        "reason": "Essential foundation in java",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "java"
+        ]
+      },
+      {
+        "title": "Advanced Android Studio Architecture",
+        "reason": "Deep dive into android studio patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "java"
+        ],
+        "addressed_skills": [
+          "android studio"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Android Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "java",
+          "kotlin"
+        ],
+        "addressed_skills": [
+          "java",
+          "kotlin"
+        ]
+      },
+      {
+        "title": "Enterprise-level Android Studio Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "java",
+          "kotlin",
+          "android studio"
+        ],
+        "addressed_skills": [
+          "android studio"
+        ]
+      },
+      {
+        "title": "Integrating Git into Java",
+        "reason": "Shows ability to use git effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "java"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Android Developer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "java",
+          "kotlin"
+        ],
+        "addressed_skills": [
+          "java",
+          "kotlin",
+          "android studio"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn java",
+      "Learn kotlin",
+      "Learn android studio",
+      "Explore git",
+      "Explore sqlite",
+      "Explore firebase"
+    ],
+    "certifications": [
+      "Certified Android Developer Professional"
+    ]
+  },
+  "ui_ux_designer": {
+    "id": "CAR_UI_UX_DESIGNER",
+    "name": "UI/UX Designer",
+    "required_skills": {
+      "figma": "Critical",
+      "wireframing": "Critical",
+      "prototyping": "Critical",
+      "adobe xd": "High",
+      "sketch": "High",
+      "html": "High",
+      "css": "Medium"
+    },
+    "optional_skills": [
+      "adobe xd",
+      "sketch",
+      "html",
+      "css"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Figma for UI/UX Designer",
+        "reason": "Essential foundation in figma",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "figma"
+        ]
+      },
+      {
+        "title": "Advanced Prototyping Architecture",
+        "reason": "Deep dive into prototyping patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "figma"
+        ],
+        "addressed_skills": [
+          "prototyping"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a UI/UX Designer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "figma",
+          "wireframing"
+        ],
+        "addressed_skills": [
+          "figma",
+          "wireframing"
+        ]
+      },
+      {
+        "title": "Enterprise-level Prototyping Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "figma",
+          "wireframing",
+          "prototyping"
+        ],
+        "addressed_skills": [
+          "prototyping"
+        ]
+      },
+      {
+        "title": "Integrating Adobe Xd into Figma",
+        "reason": "Shows ability to use adobe xd effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "figma"
+        ],
+        "addressed_skills": [
+          "adobe xd"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior UI/UX Designer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "figma",
+          "wireframing"
+        ],
+        "addressed_skills": [
+          "figma",
+          "wireframing",
+          "prototyping"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn figma",
+      "Learn wireframing",
+      "Learn prototyping",
+      "Explore adobe xd",
+      "Explore sketch",
+      "Explore html",
+      "Explore css"
+    ],
+    "certifications": [
+      "Certified UI/UX Designer Professional"
+    ]
+  },
+  "cloud_architect_aws": {
+    "id": "CAR_CLOUD_ARCHITECT_AWS",
+    "name": "Cloud Architect (AWS)",
+    "required_skills": {
+      "aws": "Critical",
+      "linux": "Critical",
+      "networking": "Critical",
+      "security": "Critical",
+      "terraform": "High",
+      "docker": "High",
+      "kubernetes": "Medium",
+      "python": "Medium"
+    },
+    "optional_skills": [
+      "terraform",
+      "docker",
+      "kubernetes",
+      "python"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Aws for Cloud Architect",
+        "reason": "Essential foundation in aws",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "aws"
+        ]
+      },
+      {
+        "title": "Advanced Security Architecture",
+        "reason": "Deep dive into security patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "aws"
+        ],
+        "addressed_skills": [
+          "security"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Cloud Architect Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "aws",
+          "linux"
+        ],
+        "addressed_skills": [
+          "aws",
+          "linux"
+        ]
+      },
+      {
+        "title": "Enterprise-level Networking Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "aws",
+          "linux",
+          "networking",
+          "security"
+        ],
+        "addressed_skills": [
+          "networking",
+          "security"
+        ]
+      },
+      {
+        "title": "Integrating Terraform into Aws",
+        "reason": "Shows ability to use terraform effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "aws"
+        ],
+        "addressed_skills": [
+          "terraform"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Cloud Architect (AWS) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "aws",
+          "linux"
+        ],
+        "addressed_skills": [
+          "aws",
+          "linux",
+          "networking",
+          "security"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn aws",
+      "Learn linux",
+      "Learn networking",
+      "Learn security",
+      "Explore terraform",
+      "Explore docker",
+      "Explore kubernetes",
+      "Explore python"
+    ],
+    "certifications": [
+      "Certified Cloud Architect (AWS) Professional"
+    ]
+  },
+  "cybersecurity_analyst": {
+    "id": "CAR_CYBERSECURITY_ANALYST",
+    "name": "Cybersecurity Analyst",
+    "required_skills": {
+      "networking": "Critical",
+      "security": "Critical",
+      "linux": "Critical",
+      "wireshark": "Critical",
+      "python": "High",
+      "bash": "High",
+      "penetration testing": "Medium"
+    },
+    "optional_skills": [
+      "python",
+      "bash",
+      "penetration testing"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Networking for Cybersecurity Analyst",
+        "reason": "Essential foundation in networking",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "networking"
+        ]
+      },
+      {
+        "title": "Advanced Wireshark Architecture",
+        "reason": "Deep dive into wireshark patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "networking"
+        ],
+        "addressed_skills": [
+          "wireshark"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Cybersecurity Analyst Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "networking",
+          "security"
+        ],
+        "addressed_skills": [
+          "networking",
+          "security"
+        ]
+      },
+      {
+        "title": "Enterprise-level Linux Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "networking",
+          "security",
+          "linux",
+          "wireshark"
+        ],
+        "addressed_skills": [
+          "linux",
+          "wireshark"
+        ]
+      },
+      {
+        "title": "Integrating Python into Networking",
+        "reason": "Shows ability to use python effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "networking"
+        ],
+        "addressed_skills": [
+          "python"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Cybersecurity Analyst Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "networking",
+          "security"
+        ],
+        "addressed_skills": [
+          "networking",
+          "security",
+          "linux",
+          "wireshark"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn networking",
+      "Learn security",
+      "Learn linux",
+      "Learn wireshark",
+      "Explore python",
+      "Explore bash",
+      "Explore penetration testing"
+    ],
+    "certifications": [
+      "Certified Cybersecurity Analyst Professional"
+    ]
+  },
+  "data_analyst": {
+    "id": "CAR_DATA_ANALYST",
+    "name": "Data Analyst",
+    "required_skills": {
+      "excel": "Critical",
+      "sql": "Critical",
+      "tableau": "Critical",
+      "power bi": "Critical",
+      "python": "High",
+      "pandas": "High",
+      "statistics": "Medium"
+    },
+    "optional_skills": [
+      "python",
+      "pandas",
+      "statistics"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Excel for Data Analyst",
+        "reason": "Essential foundation in excel",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "excel"
+        ]
+      },
+      {
+        "title": "Advanced Power Bi Architecture",
+        "reason": "Deep dive into power bi patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "excel"
+        ],
+        "addressed_skills": [
+          "power bi"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Data Analyst Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "excel",
+          "sql"
+        ],
+        "addressed_skills": [
+          "excel",
+          "sql"
+        ]
+      },
+      {
+        "title": "Enterprise-level Tableau Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "excel",
+          "sql",
+          "tableau",
+          "power bi"
+        ],
+        "addressed_skills": [
+          "tableau",
+          "power bi"
+        ]
+      },
+      {
+        "title": "Integrating Python into Excel",
+        "reason": "Shows ability to use python effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "excel"
+        ],
+        "addressed_skills": [
+          "python"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Data Analyst Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "excel",
+          "sql"
+        ],
+        "addressed_skills": [
+          "excel",
+          "sql",
+          "tableau",
+          "power bi"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn excel",
+      "Learn sql",
+      "Learn tableau",
+      "Learn power bi",
+      "Explore python",
+      "Explore pandas",
+      "Explore statistics"
+    ],
+    "certifications": [
+      "Certified Data Analyst Professional"
+    ]
+  },
+  "database_administrator": {
+    "id": "CAR_DATABASE_ADMINISTRATOR",
+    "name": "Database Administrator",
+    "required_skills": {
+      "sql": "Critical",
+      "postgresql": "Critical",
+      "mysql": "Critical",
+      "oracle": "Critical",
+      "linux": "High",
+      "backup/recovery": "High",
+      "performance tuning": "Medium"
+    },
+    "optional_skills": [
+      "linux",
+      "backup/recovery",
+      "performance tuning"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Sql for Database Administrator",
+        "reason": "Essential foundation in sql",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "sql"
+        ]
+      },
+      {
+        "title": "Advanced Oracle Architecture",
+        "reason": "Deep dive into oracle patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "sql"
+        ],
+        "addressed_skills": [
+          "oracle"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Database Administrator Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "sql",
+          "postgresql"
+        ],
+        "addressed_skills": [
+          "sql",
+          "postgresql"
+        ]
+      },
+      {
+        "title": "Enterprise-level Mysql Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "sql",
+          "postgresql",
+          "mysql",
+          "oracle"
+        ],
+        "addressed_skills": [
+          "mysql",
+          "oracle"
+        ]
+      },
+      {
+        "title": "Integrating Linux into Sql",
+        "reason": "Shows ability to use linux effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "sql"
+        ],
+        "addressed_skills": [
+          "linux"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Database Administrator Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "sql",
+          "postgresql"
+        ],
+        "addressed_skills": [
+          "sql",
+          "postgresql",
+          "mysql",
+          "oracle"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn sql",
+      "Learn postgresql",
+      "Learn mysql",
+      "Learn oracle",
+      "Explore linux",
+      "Explore backup/recovery",
+      "Explore performance tuning"
+    ],
+    "certifications": [
+      "Certified Database Administrator Professional"
+    ]
+  },
+  "blockchain_developer": {
+    "id": "CAR_BLOCKCHAIN_DEVELOPER",
+    "name": "Blockchain Developer",
+    "required_skills": {
+      "solidity": "Critical",
+      "smart contracts": "Critical",
+      "ethereum": "Critical",
+      "javascript": "Critical",
+      "rust": "High",
+      "go": "High",
+      "cryptography": "Medium"
+    },
+    "optional_skills": [
+      "rust",
+      "go",
+      "cryptography"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Solidity for Blockchain Developer",
+        "reason": "Essential foundation in solidity",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "solidity"
+        ]
+      },
+      {
+        "title": "Advanced Javascript Architecture",
+        "reason": "Deep dive into javascript patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "solidity"
+        ],
+        "addressed_skills": [
+          "javascript"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Blockchain Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "solidity",
+          "smart contracts"
+        ],
+        "addressed_skills": [
+          "solidity",
+          "smart contracts"
+        ]
+      },
+      {
+        "title": "Enterprise-level Ethereum Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "solidity",
+          "smart contracts",
+          "ethereum",
+          "javascript"
+        ],
+        "addressed_skills": [
+          "ethereum",
+          "javascript"
+        ]
+      },
+      {
+        "title": "Integrating Rust into Solidity",
+        "reason": "Shows ability to use rust effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "solidity"
+        ],
+        "addressed_skills": [
+          "rust"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Blockchain Developer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "solidity",
+          "smart contracts"
+        ],
+        "addressed_skills": [
+          "solidity",
+          "smart contracts",
+          "ethereum",
+          "javascript"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn solidity",
+      "Learn smart contracts",
+      "Learn ethereum",
+      "Learn javascript",
+      "Explore rust",
+      "Explore go",
+      "Explore cryptography"
+    ],
+    "certifications": [
+      "Certified Blockchain Developer Professional"
+    ]
+  },
+  "game_developer_unity": {
+    "id": "CAR_GAME_DEVELOPER_UNITY",
+    "name": "Game Developer (Unity)",
+    "required_skills": {
+      "c#": "Critical",
+      "unity": "Critical",
+      "game design": "Critical",
+      "c++": "High",
+      "3d modeling": "High",
+      "git": "High"
+    },
+    "optional_skills": [
+      "c++",
+      "3d modeling",
+      "git"
+    ],
+    "courses": [
+      {
+        "title": "Mastering C# for Game Developer",
+        "reason": "Essential foundation in c#",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "c#"
+        ]
+      },
+      {
+        "title": "Advanced Game Design Architecture",
+        "reason": "Deep dive into game design patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "c#"
+        ],
+        "addressed_skills": [
+          "game design"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Game Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "c#",
+          "unity"
+        ],
+        "addressed_skills": [
+          "c#",
+          "unity"
+        ]
+      },
+      {
+        "title": "Enterprise-level Game Design Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "c#",
+          "unity",
+          "game design"
+        ],
+        "addressed_skills": [
+          "game design"
+        ]
+      },
+      {
+        "title": "Integrating C++ into C#",
+        "reason": "Shows ability to use c++ effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "c#"
+        ],
+        "addressed_skills": [
+          "c++"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Game Developer (Unity) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "c#",
+          "unity"
+        ],
+        "addressed_skills": [
+          "c#",
+          "unity",
+          "game design"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn c#",
+      "Learn unity",
+      "Learn game design",
+      "Explore c++",
+      "Explore 3d modeling",
+      "Explore git"
+    ],
+    "certifications": [
+      "Certified Game Developer (Unity) Professional"
+    ]
+  },
+  "game_developer_unreal": {
+    "id": "CAR_GAME_DEVELOPER_UNREAL",
+    "name": "Game Developer (Unreal)",
+    "required_skills": {
+      "c++": "Critical",
+      "unreal engine": "Critical",
+      "blueprints": "Critical",
+      "c#": "High",
+      "3d modeling": "High",
+      "git": "High"
+    },
+    "optional_skills": [
+      "c#",
+      "3d modeling",
+      "git"
+    ],
+    "courses": [
+      {
+        "title": "Mastering C++ for Game Developer",
+        "reason": "Essential foundation in c++",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "c++"
+        ]
+      },
+      {
+        "title": "Advanced Blueprints Architecture",
+        "reason": "Deep dive into blueprints patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "c++"
+        ],
+        "addressed_skills": [
+          "blueprints"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Game Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "c++",
+          "unreal engine"
+        ],
+        "addressed_skills": [
+          "c++",
+          "unreal engine"
+        ]
+      },
+      {
+        "title": "Enterprise-level Blueprints Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "c++",
+          "unreal engine",
+          "blueprints"
+        ],
+        "addressed_skills": [
+          "blueprints"
+        ]
+      },
+      {
+        "title": "Integrating C# into C++",
+        "reason": "Shows ability to use c# effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "c++"
+        ],
+        "addressed_skills": [
+          "c#"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Game Developer (Unreal) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "c++",
+          "unreal engine"
+        ],
+        "addressed_skills": [
+          "c++",
+          "unreal engine",
+          "blueprints"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn c++",
+      "Learn unreal engine",
+      "Learn blueprints",
+      "Explore c#",
+      "Explore 3d modeling",
+      "Explore git"
+    ],
+    "certifications": [
+      "Certified Game Developer (Unreal) Professional"
+    ]
+  },
+  "site_reliability_engineer": {
+    "id": "CAR_SITE_RELIABILITY_ENGINEER",
+    "name": "Site Reliability Engineer",
+    "required_skills": {
+      "linux": "Critical",
+      "python": "Critical",
+      "go": "Critical",
+      "docker": "Critical",
+      "kubernetes": "High",
+      "aws": "High",
+      "terraform": "Medium",
+      "monitoring": "Medium"
+    },
+    "optional_skills": [
+      "kubernetes",
+      "aws",
+      "terraform",
+      "monitoring"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Linux for Site Reliability Engineer",
+        "reason": "Essential foundation in linux",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "linux"
+        ]
+      },
+      {
+        "title": "Advanced Docker Architecture",
+        "reason": "Deep dive into docker patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "linux"
+        ],
+        "addressed_skills": [
+          "docker"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Site Reliability Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "linux",
+          "python"
+        ],
+        "addressed_skills": [
+          "linux",
+          "python"
+        ]
+      },
+      {
+        "title": "Enterprise-level Go Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "linux",
+          "python",
+          "go",
+          "docker"
+        ],
+        "addressed_skills": [
+          "go",
+          "docker"
+        ]
+      },
+      {
+        "title": "Integrating Kubernetes into Linux",
+        "reason": "Shows ability to use kubernetes effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "linux"
+        ],
+        "addressed_skills": [
+          "kubernetes"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Site Reliability Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "linux",
+          "python"
+        ],
+        "addressed_skills": [
+          "linux",
+          "python",
+          "go",
+          "docker"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn linux",
+      "Learn python",
+      "Learn go",
+      "Learn docker",
+      "Explore kubernetes",
+      "Explore aws",
+      "Explore terraform",
+      "Explore monitoring"
+    ],
+    "certifications": [
+      "Certified Site Reliability Engineer Professional"
+    ]
+  },
+  "product_manager": {
+    "id": "CAR_PRODUCT_MANAGER",
+    "name": "Product Manager",
+    "required_skills": {
+      "agile": "Critical",
+      "scrum": "Critical",
+      "product strategy": "Critical",
+      "jira": "Critical",
+      "data analysis": "High",
+      "sql": "High",
+      "ux design": "Medium"
+    },
+    "optional_skills": [
+      "data analysis",
+      "sql",
+      "ux design"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Agile for Product Manager",
+        "reason": "Essential foundation in agile",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "agile"
+        ]
+      },
+      {
+        "title": "Advanced Jira Architecture",
+        "reason": "Deep dive into jira patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "agile"
+        ],
+        "addressed_skills": [
+          "jira"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Product Manager Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "agile",
+          "scrum"
+        ],
+        "addressed_skills": [
+          "agile",
+          "scrum"
+        ]
+      },
+      {
+        "title": "Enterprise-level Product Strategy Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "agile",
+          "scrum",
+          "product strategy",
+          "jira"
+        ],
+        "addressed_skills": [
+          "product strategy",
+          "jira"
+        ]
+      },
+      {
+        "title": "Integrating Data Analysis into Agile",
+        "reason": "Shows ability to use data analysis effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "agile"
+        ],
+        "addressed_skills": [
+          "data analysis"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Product Manager Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "agile",
+          "scrum"
+        ],
+        "addressed_skills": [
+          "agile",
+          "scrum",
+          "product strategy",
+          "jira"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn agile",
+      "Learn scrum",
+      "Learn product strategy",
+      "Learn jira",
+      "Explore data analysis",
+      "Explore sql",
+      "Explore ux design"
+    ],
+    "certifications": [
+      "Certified Product Manager Professional"
+    ]
+  },
+  "quality_assurance_engineer": {
+    "id": "CAR_QUALITY_ASSURANCE_ENGINEER",
+    "name": "Quality Assurance Engineer",
+    "required_skills": {
+      "selenium": "Critical",
+      "testing": "Critical",
+      "python": "Critical",
+      "java": "Critical",
+      "cypress": "High",
+      "jenkins": "High",
+      "git": "Medium"
+    },
+    "optional_skills": [
+      "cypress",
+      "jenkins",
+      "git"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Selenium for Quality Assurance Engineer",
+        "reason": "Essential foundation in selenium",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "selenium"
+        ]
+      },
+      {
+        "title": "Advanced Java Architecture",
+        "reason": "Deep dive into java patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "selenium"
+        ],
+        "addressed_skills": [
+          "java"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Quality Assurance Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "selenium",
+          "testing"
+        ],
+        "addressed_skills": [
+          "selenium",
+          "testing"
+        ]
+      },
+      {
+        "title": "Enterprise-level Python Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "selenium",
+          "testing",
+          "python",
+          "java"
+        ],
+        "addressed_skills": [
+          "python",
+          "java"
+        ]
+      },
+      {
+        "title": "Integrating Cypress into Selenium",
+        "reason": "Shows ability to use cypress effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "selenium"
+        ],
+        "addressed_skills": [
+          "cypress"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Quality Assurance Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "selenium",
+          "testing"
+        ],
+        "addressed_skills": [
+          "selenium",
+          "testing",
+          "python",
+          "java"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn selenium",
+      "Learn testing",
+      "Learn python",
+      "Learn java",
+      "Explore cypress",
+      "Explore jenkins",
+      "Explore git"
+    ],
+    "certifications": [
+      "Certified Quality Assurance Engineer Professional"
+    ]
+  },
+  "data_engineer": {
+    "id": "CAR_DATA_ENGINEER",
+    "name": "Data Engineer",
+    "required_skills": {
+      "python": "Critical",
+      "sql": "Critical",
+      "apache spark": "Critical",
+      "hadoop": "Critical",
+      "kafka": "High",
+      "aws": "High",
+      "airflow": "Medium"
+    },
+    "optional_skills": [
+      "kafka",
+      "aws",
+      "airflow"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Python for Data Engineer",
+        "reason": "Essential foundation in python",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "python"
+        ]
+      },
+      {
+        "title": "Advanced Hadoop Architecture",
+        "reason": "Deep dive into hadoop patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "hadoop"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Data Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "python",
+          "sql"
+        ],
+        "addressed_skills": [
+          "python",
+          "sql"
+        ]
+      },
+      {
+        "title": "Enterprise-level Apache Spark Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "python",
+          "sql",
+          "apache spark",
+          "hadoop"
+        ],
+        "addressed_skills": [
+          "apache spark",
+          "hadoop"
+        ]
+      },
+      {
+        "title": "Integrating Kafka into Python",
+        "reason": "Shows ability to use kafka effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "kafka"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Data Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "python",
+          "sql"
+        ],
+        "addressed_skills": [
+          "python",
+          "sql",
+          "apache spark",
+          "hadoop"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn python",
+      "Learn sql",
+      "Learn apache spark",
+      "Learn hadoop",
+      "Explore kafka",
+      "Explore aws",
+      "Explore airflow"
+    ],
+    "certifications": [
+      "Certified Data Engineer Professional"
+    ]
+  },
+  "cloud_engineer_azure": {
+    "id": "CAR_CLOUD_ENGINEER_AZURE",
+    "name": "Cloud Engineer (Azure)",
+    "required_skills": {
+      "azure": "Critical",
+      "linux": "Critical",
+      "networking": "Critical",
+      "powershell": "Critical",
+      "docker": "High",
+      "kubernetes": "High",
+      "terraform": "Medium"
+    },
+    "optional_skills": [
+      "docker",
+      "kubernetes",
+      "terraform"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Azure for Cloud Engineer",
+        "reason": "Essential foundation in azure",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "azure"
+        ]
+      },
+      {
+        "title": "Advanced Powershell Architecture",
+        "reason": "Deep dive into powershell patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "azure"
+        ],
+        "addressed_skills": [
+          "powershell"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Cloud Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "azure",
+          "linux"
+        ],
+        "addressed_skills": [
+          "azure",
+          "linux"
+        ]
+      },
+      {
+        "title": "Enterprise-level Networking Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "azure",
+          "linux",
+          "networking",
+          "powershell"
+        ],
+        "addressed_skills": [
+          "networking",
+          "powershell"
+        ]
+      },
+      {
+        "title": "Integrating Docker into Azure",
+        "reason": "Shows ability to use docker effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "azure"
+        ],
+        "addressed_skills": [
+          "docker"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Cloud Engineer (Azure) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "azure",
+          "linux"
+        ],
+        "addressed_skills": [
+          "azure",
+          "linux",
+          "networking",
+          "powershell"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn azure",
+      "Learn linux",
+      "Learn networking",
+      "Learn powershell",
+      "Explore docker",
+      "Explore kubernetes",
+      "Explore terraform"
+    ],
+    "certifications": [
+      "Certified Cloud Engineer (Azure) Professional"
+    ]
+  },
+  "cloud_engineer_gcp": {
+    "id": "CAR_CLOUD_ENGINEER_GCP",
+    "name": "Cloud Engineer (GCP)",
+    "required_skills": {
+      "gcp": "Critical",
+      "linux": "Critical",
+      "networking": "Critical",
+      "python": "Critical",
+      "docker": "High",
+      "kubernetes": "High",
+      "terraform": "Medium"
+    },
+    "optional_skills": [
+      "docker",
+      "kubernetes",
+      "terraform"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Gcp for Cloud Engineer",
+        "reason": "Essential foundation in gcp",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "gcp"
+        ]
+      },
+      {
+        "title": "Advanced Python Architecture",
+        "reason": "Deep dive into python patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "gcp"
+        ],
+        "addressed_skills": [
+          "python"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Cloud Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "gcp",
+          "linux"
+        ],
+        "addressed_skills": [
+          "gcp",
+          "linux"
+        ]
+      },
+      {
+        "title": "Enterprise-level Networking Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "gcp",
+          "linux",
+          "networking",
+          "python"
+        ],
+        "addressed_skills": [
+          "networking",
+          "python"
+        ]
+      },
+      {
+        "title": "Integrating Docker into Gcp",
+        "reason": "Shows ability to use docker effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "gcp"
+        ],
+        "addressed_skills": [
+          "docker"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Cloud Engineer (GCP) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "gcp",
+          "linux"
+        ],
+        "addressed_skills": [
+          "gcp",
+          "linux",
+          "networking",
+          "python"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn gcp",
+      "Learn linux",
+      "Learn networking",
+      "Learn python",
+      "Explore docker",
+      "Explore kubernetes",
+      "Explore terraform"
+    ],
+    "certifications": [
+      "Certified Cloud Engineer (GCP) Professional"
+    ]
+  },
+  "frontend_developer_angular": {
+    "id": "CAR_FRONTEND_DEVELOPER_ANGULAR",
+    "name": "Frontend Developer (Angular)",
+    "required_skills": {
+      "html": "Critical",
+      "css": "Critical",
+      "javascript": "Critical",
+      "angular": "Critical",
+      "typescript": "High",
+      "rxjs": "High",
+      "ngrx": "Medium"
+    },
+    "optional_skills": [
+      "typescript",
+      "rxjs",
+      "ngrx"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Html for Frontend Developer",
+        "reason": "Essential foundation in html",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "html"
+        ]
+      },
+      {
+        "title": "Advanced Angular Architecture",
+        "reason": "Deep dive into angular patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "html"
+        ],
+        "addressed_skills": [
+          "angular"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Frontend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "html",
+          "css"
+        ],
+        "addressed_skills": [
+          "html",
+          "css"
+        ]
+      },
+      {
+        "title": "Enterprise-level Javascript Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "html",
+          "css",
+          "javascript",
+          "angular"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "angular"
+        ]
+      },
+      {
+        "title": "Integrating Typescript into Html",
+        "reason": "Shows ability to use typescript effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "html"
+        ],
+        "addressed_skills": [
+          "typescript"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Frontend Developer (Angular) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "html",
+          "css"
+        ],
+        "addressed_skills": [
+          "html",
+          "css",
+          "javascript",
+          "angular"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn html",
+      "Learn css",
+      "Learn javascript",
+      "Learn angular",
+      "Explore typescript",
+      "Explore rxjs",
+      "Explore ngrx"
+    ],
+    "certifications": [
+      "Certified Frontend Developer (Angular) Professional"
+    ]
+  },
+  "frontend_developer_vue": {
+    "id": "CAR_FRONTEND_DEVELOPER_VUE",
+    "name": "Frontend Developer (Vue)",
+    "required_skills": {
+      "html": "Critical",
+      "css": "Critical",
+      "javascript": "Critical",
+      "vue": "Critical",
+      "vuex": "High",
+      "nuxt.js": "High",
+      "sass": "Medium"
+    },
+    "optional_skills": [
+      "vuex",
+      "nuxt.js",
+      "sass"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Html for Frontend Developer",
+        "reason": "Essential foundation in html",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "html"
+        ]
+      },
+      {
+        "title": "Advanced Vue Architecture",
+        "reason": "Deep dive into vue patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "html"
+        ],
+        "addressed_skills": [
+          "vue"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Frontend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "html",
+          "css"
+        ],
+        "addressed_skills": [
+          "html",
+          "css"
+        ]
+      },
+      {
+        "title": "Enterprise-level Javascript Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "html",
+          "css",
+          "javascript",
+          "vue"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "vue"
+        ]
+      },
+      {
+        "title": "Integrating Vuex into Html",
+        "reason": "Shows ability to use vuex effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "html"
+        ],
+        "addressed_skills": [
+          "vuex"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Frontend Developer (Vue) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "html",
+          "css"
+        ],
+        "addressed_skills": [
+          "html",
+          "css",
+          "javascript",
+          "vue"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn html",
+      "Learn css",
+      "Learn javascript",
+      "Learn vue",
+      "Explore vuex",
+      "Explore nuxt.js",
+      "Explore sass"
+    ],
+    "certifications": [
+      "Certified Frontend Developer (Vue) Professional"
+    ]
+  },
+  "backend_developer_java": {
+    "id": "CAR_BACKEND_DEVELOPER_JAVA",
+    "name": "Backend Developer (Java)",
+    "required_skills": {
+      "java": "Critical",
+      "spring boot": "Critical",
+      "sql": "Critical",
+      "git": "Critical",
+      "hibernate": "High",
+      "maven": "High",
+      "docker": "Medium"
+    },
+    "optional_skills": [
+      "hibernate",
+      "maven",
+      "docker"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Java for Backend Developer",
+        "reason": "Essential foundation in java",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "java"
+        ]
+      },
+      {
+        "title": "Advanced Git Architecture",
+        "reason": "Deep dive into git patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "java"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Backend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "java",
+          "spring boot"
+        ],
+        "addressed_skills": [
+          "java",
+          "spring boot"
+        ]
+      },
+      {
+        "title": "Enterprise-level Sql Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "java",
+          "spring boot",
+          "sql",
+          "git"
+        ],
+        "addressed_skills": [
+          "sql",
+          "git"
+        ]
+      },
+      {
+        "title": "Integrating Hibernate into Java",
+        "reason": "Shows ability to use hibernate effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "java"
+        ],
+        "addressed_skills": [
+          "hibernate"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Backend Developer (Java) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "java",
+          "spring boot"
+        ],
+        "addressed_skills": [
+          "java",
+          "spring boot",
+          "sql",
+          "git"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn java",
+      "Learn spring boot",
+      "Learn sql",
+      "Learn git",
+      "Explore hibernate",
+      "Explore maven",
+      "Explore docker"
+    ],
+    "certifications": [
+      "Certified Backend Developer (Java) Professional"
+    ]
+  },
+  "backend_developer_go": {
+    "id": "CAR_BACKEND_DEVELOPER_GO",
+    "name": "Backend Developer (Go)",
+    "required_skills": {
+      "go": "Critical",
+      "sql": "Critical",
+      "linux": "Critical",
+      "git": "Critical",
+      "docker": "High",
+      "kubernetes": "High",
+      "gRPC": "Medium"
+    },
+    "optional_skills": [
+      "docker",
+      "kubernetes",
+      "gRPC"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Go for Backend Developer",
+        "reason": "Essential foundation in go",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "go"
+        ]
+      },
+      {
+        "title": "Advanced Git Architecture",
+        "reason": "Deep dive into git patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "go"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Backend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "go",
+          "sql"
+        ],
+        "addressed_skills": [
+          "go",
+          "sql"
+        ]
+      },
+      {
+        "title": "Enterprise-level Linux Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "go",
+          "sql",
+          "linux",
+          "git"
+        ],
+        "addressed_skills": [
+          "linux",
+          "git"
+        ]
+      },
+      {
+        "title": "Integrating Docker into Go",
+        "reason": "Shows ability to use docker effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "go"
+        ],
+        "addressed_skills": [
+          "docker"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Backend Developer (Go) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "go",
+          "sql"
+        ],
+        "addressed_skills": [
+          "go",
+          "sql",
+          "linux",
+          "git"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn go",
+      "Learn sql",
+      "Learn linux",
+      "Learn git",
+      "Explore docker",
+      "Explore kubernetes",
+      "Explore gRPC"
+    ],
+    "certifications": [
+      "Certified Backend Developer (Go) Professional"
+    ]
+  },
+  "backend_developer_node": {
+    "id": "CAR_BACKEND_DEVELOPER_NODE",
+    "name": "Backend Developer (Node.js)",
+    "required_skills": {
+      "javascript": "Critical",
+      "node.js": "Critical",
+      "sql": "Critical",
+      "git": "Critical",
+      "typescript": "High",
+      "express": "High",
+      "mongodb": "Medium"
+    },
+    "optional_skills": [
+      "typescript",
+      "express",
+      "mongodb"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Javascript for Backend Developer",
+        "reason": "Essential foundation in javascript",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "javascript"
+        ]
+      },
+      {
+        "title": "Advanced Git Architecture",
+        "reason": "Deep dive into git patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "javascript"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Backend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "javascript",
+          "node.js"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "node.js"
+        ]
+      },
+      {
+        "title": "Enterprise-level Sql Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "javascript",
+          "node.js",
+          "sql",
+          "git"
+        ],
+        "addressed_skills": [
+          "sql",
+          "git"
+        ]
+      },
+      {
+        "title": "Integrating Typescript into Javascript",
+        "reason": "Shows ability to use typescript effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "javascript"
+        ],
+        "addressed_skills": [
+          "typescript"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Backend Developer (Node.js) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "javascript",
+          "node.js"
+        ],
+        "addressed_skills": [
+          "javascript",
+          "node.js",
+          "sql",
+          "git"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn javascript",
+      "Learn node.js",
+      "Learn sql",
+      "Learn git",
+      "Explore typescript",
+      "Explore express",
+      "Explore mongodb"
+    ],
+    "certifications": [
+      "Certified Backend Developer (Node.js) Professional"
+    ]
+  },
+  "backend_developer_csharp": {
+    "id": "CAR_BACKEND_DEVELOPER_CSHARP",
+    "name": "Backend Developer (C# .NET)",
+    "required_skills": {
+      "c#": "Critical",
+      ".net": "Critical",
+      "sql server": "Critical",
+      "git": "Critical",
+      "azure": "High",
+      "entity framework": "High",
+      "docker": "Medium"
+    },
+    "optional_skills": [
+      "azure",
+      "entity framework",
+      "docker"
+    ],
+    "courses": [
+      {
+        "title": "Mastering C# for Backend Developer",
+        "reason": "Essential foundation in c#",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "c#"
+        ]
+      },
+      {
+        "title": "Advanced Git Architecture",
+        "reason": "Deep dive into git patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "c#"
+        ],
+        "addressed_skills": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Backend Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "c#",
+          ".net"
+        ],
+        "addressed_skills": [
+          "c#",
+          ".net"
+        ]
+      },
+      {
+        "title": "Enterprise-level Sql Server Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "c#",
+          ".net",
+          "sql server",
+          "git"
+        ],
+        "addressed_skills": [
+          "sql server",
+          "git"
+        ]
+      },
+      {
+        "title": "Integrating Azure into C#",
+        "reason": "Shows ability to use azure effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "c#"
+        ],
+        "addressed_skills": [
+          "azure"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Backend Developer (C# .NET) Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "c#",
+          ".net"
+        ],
+        "addressed_skills": [
+          "c#",
+          ".net",
+          "sql server",
+          "git"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn c#",
+      "Learn .net",
+      "Learn sql server",
+      "Learn git",
+      "Explore azure",
+      "Explore entity framework",
+      "Explore docker"
+    ],
+    "certifications": [
+      "Certified Backend Developer (C# .NET) Professional"
+    ]
+  },
+  "embedded_systems_engineer": {
+    "id": "CAR_EMBEDDED_SYSTEMS_ENGINEER",
+    "name": "Embedded Systems Engineer",
+    "required_skills": {
+      "c": "Critical",
+      "c++": "Critical",
+      "microcontrollers": "Critical",
+      "rtos": "Critical",
+      "python": "High",
+      "linux": "High",
+      "hardware design": "Medium"
+    },
+    "optional_skills": [
+      "python",
+      "linux",
+      "hardware design"
+    ],
+    "courses": [
+      {
+        "title": "Mastering C for Embedded Systems Engineer",
+        "reason": "Essential foundation in c",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "c"
+        ]
+      },
+      {
+        "title": "Advanced Rtos Architecture",
+        "reason": "Deep dive into rtos patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "c"
+        ],
+        "addressed_skills": [
+          "rtos"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Embedded Systems Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "c",
+          "c++"
+        ],
+        "addressed_skills": [
+          "c",
+          "c++"
+        ]
+      },
+      {
+        "title": "Enterprise-level Microcontrollers Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "c",
+          "c++",
+          "microcontrollers",
+          "rtos"
+        ],
+        "addressed_skills": [
+          "microcontrollers",
+          "rtos"
+        ]
+      },
+      {
+        "title": "Integrating Python into C",
+        "reason": "Shows ability to use python effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "c"
+        ],
+        "addressed_skills": [
+          "python"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Embedded Systems Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "c",
+          "c++"
+        ],
+        "addressed_skills": [
+          "c",
+          "c++",
+          "microcontrollers",
+          "rtos"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn c",
+      "Learn c++",
+      "Learn microcontrollers",
+      "Learn rtos",
+      "Explore python",
+      "Explore linux",
+      "Explore hardware design"
+    ],
+    "certifications": [
+      "Certified Embedded Systems Engineer Professional"
+    ]
+  },
+  "ar_vr_developer": {
+    "id": "CAR_AR_VR_DEVELOPER",
+    "name": "AR/VR Developer",
+    "required_skills": {
+      "c#": "Critical",
+      "unity": "Critical",
+      "arcore": "Critical",
+      "arkit": "Critical",
+      "c++": "High",
+      "unreal engine": "High",
+      "3d math": "Medium"
+    },
+    "optional_skills": [
+      "c++",
+      "unreal engine",
+      "3d math"
+    ],
+    "courses": [
+      {
+        "title": "Mastering C# for AR/VR Developer",
+        "reason": "Essential foundation in c#",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "c#"
+        ]
+      },
+      {
+        "title": "Advanced Arkit Architecture",
+        "reason": "Deep dive into arkit patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "c#"
+        ],
+        "addressed_skills": [
+          "arkit"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a AR/VR Developer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "c#",
+          "unity"
+        ],
+        "addressed_skills": [
+          "c#",
+          "unity"
+        ]
+      },
+      {
+        "title": "Enterprise-level Arcore Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "c#",
+          "unity",
+          "arcore",
+          "arkit"
+        ],
+        "addressed_skills": [
+          "arcore",
+          "arkit"
+        ]
+      },
+      {
+        "title": "Integrating C++ into C#",
+        "reason": "Shows ability to use c++ effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "c#"
+        ],
+        "addressed_skills": [
+          "c++"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior AR/VR Developer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "c#",
+          "unity"
+        ],
+        "addressed_skills": [
+          "c#",
+          "unity",
+          "arcore",
+          "arkit"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn c#",
+      "Learn unity",
+      "Learn arcore",
+      "Learn arkit",
+      "Explore c++",
+      "Explore unreal engine",
+      "Explore 3d math"
+    ],
+    "certifications": [
+      "Certified AR/VR Developer Professional"
+    ]
+  },
+  "big_data_engineer": {
+    "id": "CAR_BIG_DATA_ENGINEER",
+    "name": "Big Data Engineer",
+    "required_skills": {
+      "java": "Critical",
+      "scala": "Critical",
+      "hadoop": "Critical",
+      "spark": "Critical",
+      "python": "High",
+      "kafka": "High",
+      "nosql": "Medium"
+    },
+    "optional_skills": [
+      "python",
+      "kafka",
+      "nosql"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Java for Big Data Engineer",
+        "reason": "Essential foundation in java",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "java"
+        ]
+      },
+      {
+        "title": "Advanced Spark Architecture",
+        "reason": "Deep dive into spark patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "java"
+        ],
+        "addressed_skills": [
+          "spark"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Big Data Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "java",
+          "scala"
+        ],
+        "addressed_skills": [
+          "java",
+          "scala"
+        ]
+      },
+      {
+        "title": "Enterprise-level Hadoop Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "java",
+          "scala",
+          "hadoop",
+          "spark"
+        ],
+        "addressed_skills": [
+          "hadoop",
+          "spark"
+        ]
+      },
+      {
+        "title": "Integrating Python into Java",
+        "reason": "Shows ability to use python effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "java"
+        ],
+        "addressed_skills": [
+          "python"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Big Data Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "java",
+          "scala"
+        ],
+        "addressed_skills": [
+          "java",
+          "scala",
+          "hadoop",
+          "spark"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn java",
+      "Learn scala",
+      "Learn hadoop",
+      "Learn spark",
+      "Explore python",
+      "Explore kafka",
+      "Explore nosql"
+    ],
+    "certifications": [
+      "Certified Big Data Engineer Professional"
+    ]
+  },
+  "computer_vision_engineer": {
+    "id": "CAR_COMPUTER_VISION_ENGINEER",
+    "name": "Computer Vision Engineer",
+    "required_skills": {
+      "python": "Critical",
+      "opencv": "Critical",
+      "machine learning": "Critical",
+      "deep learning": "Critical",
+      "c++": "High",
+      "tensorflow": "High",
+      "pytorch": "Medium"
+    },
+    "optional_skills": [
+      "c++",
+      "tensorflow",
+      "pytorch"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Python for Computer Vision Engineer",
+        "reason": "Essential foundation in python",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "python"
+        ]
+      },
+      {
+        "title": "Advanced Deep Learning Architecture",
+        "reason": "Deep dive into deep learning patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "deep learning"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Computer Vision Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "python",
+          "opencv"
+        ],
+        "addressed_skills": [
+          "python",
+          "opencv"
+        ]
+      },
+      {
+        "title": "Enterprise-level Machine Learning Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "python",
+          "opencv",
+          "machine learning",
+          "deep learning"
+        ],
+        "addressed_skills": [
+          "machine learning",
+          "deep learning"
+        ]
+      },
+      {
+        "title": "Integrating C++ into Python",
+        "reason": "Shows ability to use c++ effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "c++"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Computer Vision Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "python",
+          "opencv"
+        ],
+        "addressed_skills": [
+          "python",
+          "opencv",
+          "machine learning",
+          "deep learning"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn python",
+      "Learn opencv",
+      "Learn machine learning",
+      "Learn deep learning",
+      "Explore c++",
+      "Explore tensorflow",
+      "Explore pytorch"
+    ],
+    "certifications": [
+      "Certified Computer Vision Engineer Professional"
+    ]
+  },
+  "nlp_engineer": {
+    "id": "CAR_NLP_ENGINEER",
+    "name": "NLP Engineer",
+    "required_skills": {
+      "python": "Critical",
+      "nlp": "Critical",
+      "machine learning": "Critical",
+      "pytorch": "Critical",
+      "tensorflow": "High",
+      "transformers": "High",
+      "spacy": "Medium"
+    },
+    "optional_skills": [
+      "tensorflow",
+      "transformers",
+      "spacy"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Python for NLP Engineer",
+        "reason": "Essential foundation in python",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "python"
+        ]
+      },
+      {
+        "title": "Advanced Pytorch Architecture",
+        "reason": "Deep dive into pytorch patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "pytorch"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a NLP Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "python",
+          "nlp"
+        ],
+        "addressed_skills": [
+          "python",
+          "nlp"
+        ]
+      },
+      {
+        "title": "Enterprise-level Machine Learning Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "python",
+          "nlp",
+          "machine learning",
+          "pytorch"
+        ],
+        "addressed_skills": [
+          "machine learning",
+          "pytorch"
+        ]
+      },
+      {
+        "title": "Integrating Tensorflow into Python",
+        "reason": "Shows ability to use tensorflow effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "python"
+        ],
+        "addressed_skills": [
+          "tensorflow"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior NLP Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "python",
+          "nlp"
+        ],
+        "addressed_skills": [
+          "python",
+          "nlp",
+          "machine learning",
+          "pytorch"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn python",
+      "Learn nlp",
+      "Learn machine learning",
+      "Learn pytorch",
+      "Explore tensorflow",
+      "Explore transformers",
+      "Explore spacy"
+    ],
+    "certifications": [
+      "Certified NLP Engineer Professional"
+    ]
+  },
+  "robotics_engineer": {
+    "id": "CAR_ROBOTICS_ENGINEER",
+    "name": "Robotics Engineer",
+    "required_skills": {
+      "c++": "Critical",
+      "python": "Critical",
+      "ros": "Critical",
+      "linux": "Critical",
+      "machine learning": "High",
+      "control systems": "High",
+      "computer vision": "Medium"
+    },
+    "optional_skills": [
+      "machine learning",
+      "control systems",
+      "computer vision"
+    ],
+    "courses": [
+      {
+        "title": "Mastering C++ for Robotics Engineer",
+        "reason": "Essential foundation in c++",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "c++"
+        ]
+      },
+      {
+        "title": "Advanced Linux Architecture",
+        "reason": "Deep dive into linux patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "c++"
+        ],
+        "addressed_skills": [
+          "linux"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Robotics Engineer Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "c++",
+          "python"
+        ],
+        "addressed_skills": [
+          "c++",
+          "python"
+        ]
+      },
+      {
+        "title": "Enterprise-level Ros Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "c++",
+          "python",
+          "ros",
+          "linux"
+        ],
+        "addressed_skills": [
+          "ros",
+          "linux"
+        ]
+      },
+      {
+        "title": "Integrating Machine Learning into C++",
+        "reason": "Shows ability to use machine learning effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "c++"
+        ],
+        "addressed_skills": [
+          "machine learning"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Robotics Engineer Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "c++",
+          "python"
+        ],
+        "addressed_skills": [
+          "c++",
+          "python",
+          "ros",
+          "linux"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn c++",
+      "Learn python",
+      "Learn ros",
+      "Learn linux",
+      "Explore machine learning",
+      "Explore control systems",
+      "Explore computer vision"
+    ],
+    "certifications": [
+      "Certified Robotics Engineer Professional"
+    ]
+  },
+  "bi_analyst": {
+    "id": "CAR_BI_ANALYST",
+    "name": "Business Intelligence Analyst",
+    "required_skills": {
+      "sql": "Critical",
+      "power bi": "Critical",
+      "tableau": "Critical",
+      "excel": "Critical",
+      "python": "High",
+      "data warehousing": "High",
+      "etl": "Medium"
+    },
+    "optional_skills": [
+      "python",
+      "data warehousing",
+      "etl"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Sql for Business Intelligence Analyst",
+        "reason": "Essential foundation in sql",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "sql"
+        ]
+      },
+      {
+        "title": "Advanced Excel Architecture",
+        "reason": "Deep dive into excel patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "sql"
+        ],
+        "addressed_skills": [
+          "excel"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a Business Intelligence Analyst Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "sql",
+          "power bi"
+        ],
+        "addressed_skills": [
+          "sql",
+          "power bi"
+        ]
+      },
+      {
+        "title": "Enterprise-level Tableau Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "sql",
+          "power bi",
+          "tableau",
+          "excel"
+        ],
+        "addressed_skills": [
+          "tableau",
+          "excel"
+        ]
+      },
+      {
+        "title": "Integrating Python into Sql",
+        "reason": "Shows ability to use python effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "sql"
+        ],
+        "addressed_skills": [
+          "python"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior Business Intelligence Analyst Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "sql",
+          "power bi"
+        ],
+        "addressed_skills": [
+          "sql",
+          "power bi",
+          "tableau",
+          "excel"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn sql",
+      "Learn power bi",
+      "Learn tableau",
+      "Learn excel",
+      "Explore python",
+      "Explore data warehousing",
+      "Explore etl"
+    ],
+    "certifications": [
+      "Certified Business Intelligence Analyst Professional"
+    ]
+  },
+  "it_support_specialist": {
+    "id": "CAR_IT_SUPPORT_SPECIALIST",
+    "name": "IT Support Specialist",
+    "required_skills": {
+      "troubleshooting": "Critical",
+      "windows": "Critical",
+      "networking": "Critical",
+      "customer service": "Critical",
+      "linux": "High",
+      "active directory": "High",
+      "mac os": "Medium"
+    },
+    "optional_skills": [
+      "linux",
+      "active directory",
+      "mac os"
+    ],
+    "courses": [
+      {
+        "title": "Mastering Troubleshooting for IT Support Specialist",
+        "reason": "Essential foundation in troubleshooting",
+        "difficulty": "Beginner",
+        "estimated_time": "4 weeks",
+        "prerequisites": [],
+        "addressed_skills": [
+          "troubleshooting"
+        ]
+      },
+      {
+        "title": "Advanced Customer Service Architecture",
+        "reason": "Deep dive into customer service patterns",
+        "difficulty": "Advanced",
+        "estimated_time": "6 weeks",
+        "prerequisites": [
+          "troubleshooting"
+        ],
+        "addressed_skills": [
+          "customer service"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Build a IT Support Specialist Portfolio Project",
+        "reason": "Hands-on experience with core tools",
+        "difficulty": "Intermediate",
+        "estimated_time": "3 weeks",
+        "prerequisites": [
+          "troubleshooting",
+          "windows"
+        ],
+        "addressed_skills": [
+          "troubleshooting",
+          "windows"
+        ]
+      },
+      {
+        "title": "Enterprise-level Networking Application",
+        "reason": "Demonstrate production readiness",
+        "difficulty": "Advanced",
+        "estimated_time": "8 weeks",
+        "prerequisites": [
+          "troubleshooting",
+          "windows",
+          "networking",
+          "customer service"
+        ],
+        "addressed_skills": [
+          "networking",
+          "customer service"
+        ]
+      },
+      {
+        "title": "Integrating Linux into Troubleshooting",
+        "reason": "Shows ability to use linux effectively",
+        "difficulty": "Intermediate",
+        "estimated_time": "2 weeks",
+        "prerequisites": [
+          "troubleshooting"
+        ],
+        "addressed_skills": [
+          "linux"
+        ]
+      }
+    ],
+    "internships": [
+      {
+        "title": "Junior IT Support Specialist Intern",
+        "reason": "Gain real-world experience",
+        "difficulty": "Beginner",
+        "estimated_time": "3 months",
+        "prerequisites": [
+          "troubleshooting",
+          "windows"
+        ],
+        "addressed_skills": [
+          "troubleshooting",
+          "windows",
+          "networking",
+          "customer service"
+        ]
+      }
+    ],
+    "roadmap": [
+      "Learn troubleshooting",
+      "Learn windows",
+      "Learn networking",
+      "Learn customer service",
+      "Explore linux",
+      "Explore active directory",
+      "Explore mac os"
+    ],
+    "certifications": [
+      "Certified IT Support Specialist Professional"
+    ]
+  }
+}

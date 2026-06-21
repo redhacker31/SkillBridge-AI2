@@ -1,0 +1,38 @@
+# =============================================
+# SkillBridge AI — Backend Dependencies
+# =============================================
+
+# Web Framework
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+
+# Database
+sqlalchemy==2.0.41
+
+# Validation & Settings
+pydantic==2.11.3
+pydantic-settings==2.9.1
+
+# Authentication
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.3.0
+
+# File Upload
+python-multipart==0.0.20
+
+# PDF Parsing
+PyMuPDF==1.25.5
+pdfplumber==0.11.10
+
+# AI Models & NLP
+spacy==3.7.4
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+
+# Environment
+python-dotenv==1.1.0
+
+# Production Database & Docker Healthchecks
+psycopg2-binary==2.9.9
+httpx==0.27.0

@@ -1,0 +1,116 @@
+# =============================================================================
+# SkillBridge AI — Docker Compose
+# =============================================================================
+# Usage:
+#   docker compose up --build        Start all services
+#   docker compose down              Stop all services
+#   docker compose down -v           Stop and remove volumes
+#   docker compose logs -f backend   Follow backend logs
+# =============================================================================
+
+services:
+  # ---------------------------------------------------------------------------
+  # PostgreSQL Database
+  # ---------------------------------------------------------------------------
+  db:
+    image: postgres:16-alpine
+    container_name: skillbridge-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-skillbridge}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-skillbridge_secret_change_me}
+      POSTGRES_DB: ${POSTGRES_DB:-skillbridge_db}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-skillbridge} -d ${POSTGRES_DB:-skillbridge_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - skillbridge-network
+
+  # ---------------------------------------------------------------------------
+  # Backend — FastAPI
+  # ---------------------------------------------------------------------------
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    container_name: skillbridge-backend
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-skillbridge}:${POSTGRES_PASSWORD:-skillbridge_secret_change_me}@db:5432/${POSTGRES_DB:-skillbridge_db}
+      - APP_ENV=${APP_ENV:-development}
+      - DEBUG=${DEBUG:-true}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - SECRET_KEY=${SECRET_KEY:-super-secret-key-change-me-in-production}
+      - JWT_SECRET=${JWT_SECRET:-jwt-secret-key-change-me-in-production}
+      - JWT_ALGORITHM=${JWT_ALGORITHM:-HS256}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES:-30}
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:5173,http://localhost:3000}
+      - BACKEND_HOST=0.0.0.0
+      - BACKEND_PORT=8000
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; r = httpx.get('http://localhost:8000/api/v1/health'); r.raise_for_status()"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    networks:
+      - skillbridge-network
+
+  # ---------------------------------------------------------------------------
+  # Frontend — React + Vite
+  # ---------------------------------------------------------------------------
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    container_name: skillbridge-frontend
+    restart: unless-stopped
+    environment:
+      - VITE_API_BASE_URL=http://localhost:${BACKEND_PORT:-8000}/api/v1
+    ports:
+      - "${FRONTEND_PORT:-5173}:5173"
+    volumes:
+      - ./frontend:/app
+      - frontend_node_modules:/app/node_modules
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:5173 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 3
+      start_period: 45s
+    networks:
+      - skillbridge-network
+
+# -----------------------------------------------------------------------------
+# Volumes
+# -----------------------------------------------------------------------------
+volumes:
+  postgres_data:
+    driver: local
+  frontend_node_modules:
+    driver: local
+
+# -----------------------------------------------------------------------------
+# Networks
+# -----------------------------------------------------------------------------
+networks:
+  skillbridge-network:
+    driver: bridge

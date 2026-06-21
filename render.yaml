@@ -1,0 +1,50 @@
+services:
+  # ───────────────────────────────────────────────────────────────────────────
+  # Backend — FastAPI Python Web Service
+  # ───────────────────────────────────────────────────────────────────────────
+  - type: web
+    name: skillbridge-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: skillbridge-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: APP_ENV
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: CORS_ORIGINS
+        value: "*" # In production, this can be restricted to the frontend URL
+
+  # ───────────────────────────────────────────────────────────────────────────
+  # Frontend — React + Vite Static Site
+  # ───────────────────────────────────────────────────────────────────────────
+  - type: web
+    name: skillbridge-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          name: skillbridge-backend
+          type: web
+          property: url
+        # During the build phase, Render injects the generated backend URL.
+        # Vite will compile this into the client bundle successfully.
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Database — PostgreSQL Service
+# ─────────────────────────────────────────────────────────────────────────────
+databases:
+  - name: skillbridge-db
+    plan: free
