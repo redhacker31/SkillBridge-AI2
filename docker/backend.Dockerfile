@@ -5,7 +5,7 @@
 # Uses Python 3.12 slim with non-root user for security.
 # =============================================================================
 
-FROM python:3.12-slim AS base
+FROM python:3.11-slim AS base
 
 # Prevent Python from writing .pyc files and enable unbuffered output
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -28,7 +28,7 @@ WORKDIR /app
 
 # Copy requirements and install dependencies
 COPY backend/requirements.txt .
-RUN pip install --no-cache-dir --upgrade pip && \
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy application code

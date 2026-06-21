@@ -6,7 +6,7 @@ services:
     name: skillbridge-backend
     env: python
     rootDir: backend
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -U pip setuptools wheel && pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: DATABASE_URL
@@ -23,6 +23,8 @@ services:
         value: INFO
       - key: CORS_ORIGINS
         value: "*" # In production, this can be restricted to the frontend URL
+      - key: PYTHON_VERSION
+        value: 3.11.9
 
   # ───────────────────────────────────────────────────────────────────────────
   # Frontend — React + Vite Static Site
