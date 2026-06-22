@@ -109,7 +109,7 @@ def generate_strengths_weaknesses(parsed_data: dict, gap_results: dict) -> tuple
 def analyze_projects(projects: list[dict], gap_results: dict) -> list[dict]:
     analyzed = []
     for p in projects:
-        tech = p.get("technologies", "Not specified")
+        tech = p.get("technologies") or "Not specified"
         tech_list = [t.strip().lower() for t in tech.split(",")]
         
         complexity = "Basic"

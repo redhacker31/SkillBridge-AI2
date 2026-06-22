@@ -49,11 +49,12 @@ def test_flow():
         "career_goal": "Software Engineer"
     }, headers=headers)
     print(f"Analyze trigger: {res.status_code}")
+    analysis_id = res.json()["analysis_id"]
     
     # 4. Poll
     for _ in range(30):
         time.sleep(1)
-        res = session.get(f"{BASE_URL}/resume/analysis/{resume_id}/status", headers=headers)
+        res = session.get(f"{BASE_URL}/resume/analysis/{analysis_id}/status", headers=headers)
         status = res.json()["status"]
         print(f"Status: {status}")
         if status in ["completed", "failed"]:

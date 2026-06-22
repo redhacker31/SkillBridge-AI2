@@ -5,15 +5,27 @@ import numpy as np
 # Lazily load semantic model
 _model = None
 
-def get_model():
+def preload_model():
     global _model
     if _model is None:
         try:
             from sentence_transformers import SentenceTransformer
+            import logging
+            logger = logging.getLogger("skillbridge.ai.gap_detector")
+            logger.info("Preloading SentenceTransformer model: all-MiniLM-L6-v2...")
             _model = SentenceTransformer("all-MiniLM-L6-v2")
+            logger.info("SentenceTransformer model preloaded successfully.")
         except Exception as e:
-            print(f"Failed to load sentence-transformers model: {e}")
+            import logging
+            logging.getLogger("skillbridge.ai.gap_detector").error(
+                f"Failed to preload sentence-transformers model: {e}", exc_info=True
+            )
             _model = False
+
+def get_model():
+    global _model
+    if _model is None:
+        preload_model()
     return _model
 
 def load_careers_db() -> dict:

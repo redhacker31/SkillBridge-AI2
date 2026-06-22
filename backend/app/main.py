@@ -40,6 +40,13 @@ async def lifespan(app: FastAPI):
     uploads_path.mkdir(parents=True, exist_ok=True)
     logger.info("Upload directory ready: %s", uploads_path.resolve())
 
+    # Preload NLP models
+    try:
+        from app.ai.gap_detector import preload_model
+        preload_model()
+    except Exception as e:
+        logger.error("Failed to preload models during startup: %s", e, exc_info=True)
+
     logger.info("SkillBridge AI is ready!")
     yield
     # Shutdown
